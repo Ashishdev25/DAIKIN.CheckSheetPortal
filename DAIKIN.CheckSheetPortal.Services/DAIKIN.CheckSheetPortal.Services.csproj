@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="EPPlus" Version="7.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.Common\DAIKIN.CheckSheetPortal.Common.csproj" />
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.DTO\DAIKIN.CheckSheetPortal.DTO.csproj" />
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.Entities\DAIKIN.CheckSheetPortal.Entities.csproj" />
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.Infrastructure\DAIKIN.CheckSheetPortal.Infrastructure.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<RuntimeHostConfigurationOption Include="System.Drawing.EnableUnixSupport" Value="true" />
+	</ItemGroup>
+</Project>

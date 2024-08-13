@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.API", "DAIKIN.CheckSheetPortal.API\DAIKIN.CheckSheetPortal.API.csproj", "{28642CDA-8582-4C7D-9B76-41BAAABBB5B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.DataAccess", "DAIKIN.CheckSheetPortal.DataAccess\DAIKIN.CheckSheetPortal.DataAccess.csproj", "{D999B735-E48C-4682-BBEF-4A47405879F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.DTO", "DAIKIN.CheckSheetPortal.DTO\DAIKIN.CheckSheetPortal.DTO.csproj", "{F2C98FD4-429C-4345-BE11-E64162297791}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.Entities", "DAIKIN.CheckSheetPortal.Entities\DAIKIN.CheckSheetPortal.Entities.csproj", "{49D96B40-A54E-468E-B85E-CE46A2B07681}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.Infrastructure", "DAIKIN.CheckSheetPortal.Infrastructure\DAIKIN.CheckSheetPortal.Infrastructure.csproj", "{5EE47C18-5CEE-4192-9970-5703569D34B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.Services", "DAIKIN.CheckSheetPortal.Services\DAIKIN.CheckSheetPortal.Services.csproj", "{B24216B7-2201-4687-98FE-676BF6BC5BF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.UnitTest", "DAIKIN.CheckSheetPortal.UnitTest\DAIKIN.CheckSheetPortal.UnitTest.csproj", "{6C8CD851-B5F7-4823-BA54-72E3FEE652FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.Utils", "DAIKIN.CheckSheetPortal.Utils\DAIKIN.CheckSheetPortal.Utils.csproj", "{CA1BDCB8-BE42-4B5F-8B8C-300738C4D798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2E05D35-0BDA-45A2-9CF2-BA1D0793FE4E}"
+	ProjectSection(SolutionItems) = preProject
+		DailyCheckSheet_WorkFlowTemplate.txt = DailyCheckSheet_WorkFlowTemplate.txt
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAIKIN.CheckSheetPortal.Common", "DAIKIN.CheckSheetPortal.Common\DAIKIN.CheckSheetPortal.Common.csproj", "{E292959D-C433-49A5-A100-568DE96B0327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28642CDA-8582-4C7D-9B76-41BAAABBB5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28642CDA-8582-4C7D-9B76-41BAAABBB5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28642CDA-8582-4C7D-9B76-41BAAABBB5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28642CDA-8582-4C7D-9B76-41BAAABBB5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D999B735-E48C-4682-BBEF-4A47405879F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D999B735-E48C-4682-BBEF-4A47405879F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D999B735-E48C-4682-BBEF-4A47405879F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D999B735-E48C-4682-BBEF-4A47405879F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C98FD4-429C-4345-BE11-E64162297791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C98FD4-429C-4345-BE11-E64162297791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C98FD4-429C-4345-BE11-E64162297791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C98FD4-429C-4345-BE11-E64162297791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D96B40-A54E-468E-B85E-CE46A2B07681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D96B40-A54E-468E-B85E-CE46A2B07681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D96B40-A54E-468E-B85E-CE46A2B07681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D96B40-A54E-468E-B85E-CE46A2B07681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE47C18-5CEE-4192-9970-5703569D34B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE47C18-5CEE-4192-9970-5703569D34B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE47C18-5CEE-4192-9970-5703569D34B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE47C18-5CEE-4192-9970-5703569D34B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24216B7-2201-4687-98FE-676BF6BC5BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24216B7-2201-4687-98FE-676BF6BC5BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24216B7-2201-4687-98FE-676BF6BC5BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24216B7-2201-4687-98FE-676BF6BC5BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8CD851-B5F7-4823-BA54-72E3FEE652FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8CD851-B5F7-4823-BA54-72E3FEE652FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8CD851-B5F7-4823-BA54-72E3FEE652FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8CD851-B5F7-4823-BA54-72E3FEE652FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1BDCB8-BE42-4B5F-8B8C-300738C4D798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1BDCB8-BE42-4B5F-8B8C-300738C4D798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1BDCB8-BE42-4B5F-8B8C-300738C4D798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1BDCB8-BE42-4B5F-8B8C-300738C4D798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E292959D-C433-49A5-A100-568DE96B0327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E292959D-C433-49A5-A100-568DE96B0327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E292959D-C433-49A5-A100-568DE96B0327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E292959D-C433-49A5-A100-568DE96B0327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08FADA16-2E44-43C8-A630-35DF6A0A10A2}
+	EndGlobalSection
+EndGlobal

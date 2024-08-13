@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.Common\DAIKIN.CheckSheetPortal.Common.csproj" />
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.DTO\DAIKIN.CheckSheetPortal.DTO.csproj" />
+    <ProjectReference Include="..\DAIKIN.CheckSheetPortal.Entities\DAIKIN.CheckSheetPortal.Entities.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<RuntimeHostConfigurationOption Include="System.Drawing.EnableUnixSupport" Value="true" />
+	</ItemGroup>
+</Project>
